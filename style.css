@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Nunito&display=swap');
+
+/* Navbar Here */
+.navbar-brand{
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #fff !important;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff !important;
+}
+header{
+    background: #6930c3;
+}
+
+/* Banner Here */
+#banner{
+    background-image: url('img/backgroundimg1.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+.width-50{
+    width: 50%;
+}
+/* Tecnology Carosel */
+.boder-left{
+    border-left: 8px solid #20C997;
+}
+.item-title .d-flex img{
+    width: 30px;
+    height: 30px;
+}
+.img-hover{
+    overflow: hidden;
+}
+.img-hover img{
+    transition: .5s all ease;
+    
+}
+.img-hover img:hover{
+    transform: scale(1.1);
+    
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {	
+	padding: .4rem 3rem !important;	
+	margin-right: 20px;	
+    border-radius: 3rem;
+    background: rgba(0,0,0,0.1);
+}
+/* Footer Here */
+.nav-link{
+    padding: .5rem .5rem !important;
+}
+.sub{
+    background-color: #f8f9fa;
+    border-radius: 30px;
+    width: 200px;
+}
+.sub-btn{
+    padding: 5px 15px;
+    background-color: #343a40;
+    color: #fff;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+.contact{
+    border: 1px solid #dee2e6 ;
+    
+}
+
+
+
+@media only screen and (max-width: 400px){
+#banner h1{
+    font-size: 2rem;
+}
+}
